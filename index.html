@@ -1,9 +1,47 @@
-<!DOCTYPE html>
-<body>
-  <h1>Hate</h1>
-  <a href="https://youtube.com"><button type="Like"></button></a>
-  <img src="https://horse.png"/>
-<h2> Nu apasa fara sa fi singur</h2>
-<a href="">Nu apasa fara casti</a>
-</body>
+<html>
+
+  <body>
+
+    <h1 id="resultText"></h1>
+
+    <script>
+
+      
+
+      let response = prompt("Mergem maine cu bicicletele pe la 17:30 ? Type Yes or No");
+
+      let outputText = "";
+
+      
+
+      if (response=="Yes"){
+
+        outputText = "Forta bulangiule";
+
+      }else if(response=="No"){
+
+        outputText = "sa te fut";
+
+      }else{
+
+        outputText = "please type Yes or No!!";
+
+      }
+
+      
+
+      document.getElementById("resultText").innerHTML = outputText;
+
+    </script>
+
+  </body>
+
 </html>
+
+
+
+  
+  
+  
+
+
